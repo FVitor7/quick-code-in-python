@@ -9,7 +9,7 @@ def validate_regex(cpf):
 			else:
 				print('CPF Inválido')
 		except:
-			print('CPF Inválido')
+			print('Verifique o CPF digitado e tente novamente...')
 	else:
 		cpf = re.sub("\.", "", cpf, 2)
 		cpf = re.sub("\-", "", cpf, 1)
